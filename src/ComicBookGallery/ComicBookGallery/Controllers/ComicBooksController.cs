@@ -11,13 +11,13 @@ namespace ComicBookGallery.Controllers
         // GET: ComicBooks
         public ActionResult Index()
         {
-            return View();
+            return Content("Comicbooks Index");
         }
 
         // comicbooks/detail
         public ActionResult Detail()
         {
-            return Content("Hallo");
+            return View();
         }
     }
 }
